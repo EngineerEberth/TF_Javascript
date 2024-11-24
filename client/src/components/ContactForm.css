@@ -1,0 +1,50 @@
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    width: 90%; /* Ancho responsivo */
+    max-width: 900px; /* Ancho máximo reducido para un diseño más compacto */
+    margin: 0 auto; /* Centrar el formulario */
+    background: #1c1c1c; /* Fondo oscuro */
+    padding: 60px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    color: #e0e0e0; /* Texto claro */
+
+}
+
+.contact-form label {
+    margin: 10px 0 5px; /* Espacio ajustado entre etiqueta y campo */
+    font-weight: bold; /* Negrita para las etiquetas */
+    color: #39FF14; /* Verde neón */
+}
+
+.contact-form input,
+.contact-form textarea {
+    padding: 10px; /* Espaciado interno aumentado */
+    margin: 6px 0; /* Espacio entre campos */
+    border: 1px solid #39FF14; /* Borde verde neón */
+    border-radius: 4px; /* Bordes redondeados */
+    background: #2c2c2c; /* Fondo oscuro para inputs */
+    color: #e0e0e0; /* Texto claro */
+    width: 100%; /* Full width para inputs y textarea */
+    
+}
+
+.contact-form textarea {
+    height: 100px; /* Altura fija */
+}
+
+.contact-form button {
+    background-color: #39FF14; /* Color de fondo verde neón */
+    color: #000000; /* Color del texto negro */
+    padding: 10px; /* Espaciado interno */
+    border: none; /* Sin borde */
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor */
+    margin-top: 10px; /* Espacio superior para el botón */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.contact-form button:hover {
+    background-color: #32CC12; /* Color más oscuro al pasar el ratón */
+}

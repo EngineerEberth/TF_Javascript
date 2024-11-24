@@ -1,0 +1,17 @@
+.comment-list {
+    list-style-type: none; /* Eliminar viñetas */
+    padding: 0; /* Eliminar padding por defecto */
+}
+
+.comment-list li {
+    background: #2c2c2c; /* Fondo oscuro para cada comentario */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio entre comentarios */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+    color: #e0e0e0; /* Texto claro para los comentarios */
+}
+
+.comment-list li:hover {
+    background: #1c1c1c; /* Fondo más oscuro al pasar el mouse */
+}

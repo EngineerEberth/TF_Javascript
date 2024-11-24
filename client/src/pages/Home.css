@@ -1,0 +1,37 @@
+.home {
+    max-width: 1200px; /* Limitar ancho máximo */
+    margin: 0 auto; /* Centrar el contenido */
+    padding: 20px; /* Espaciado interno */
+    background-color:   #2d353d; /* Fondo oscuro */
+    color: #e0e0e0; /* Texto claro */
+    margin-top: 5px;
+}
+
+.home h2 {
+    margin-bottom: 10px; /* Espacio inferior */
+    color: #39FF14; /* Título en verde neón */
+}
+
+.home p {
+    margin-bottom: 20px; /* Espacio inferior */
+    color: #e0e0e0; /* Texto claro para párrafos */
+}
+
+.comments {
+    width: 100%; /* Asegurarse de que ocupe todo el ancho */
+    max-width: 800px; /* Limitar el ancho máximo de comentarios */
+    margin: 20px auto; /* Centrar */
+    background: #1c1c1c; /* Fondo oscuro para la sección de comentarios */
+    border-radius: 5px; /* Bordes redondeados */
+    padding: 15px; /* Espaciado interno */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+}
+.gallery {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+

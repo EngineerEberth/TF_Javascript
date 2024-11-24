@@ -1,0 +1,68 @@
+/* Estilo de la miniatura */
+.thumbnail {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.2s ease-in-out;
+    border-radius: 8px;
+}
+
+.thumbnail:hover {
+    transform: scale(1.1);
+}
+
+/* Fondo oscuro del modal */
+.zoom-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+/* Contenedor de la imagen dentro del modal */
+.zoom-content {
+    position: relative;
+    animation: zoomIn 0.0s ease;
+}
+
+/* Imagen ampliada */
+.zoomed-image {
+    max-width: 90vw;   /* Limitar el ancho al 90% del viewport */
+    max-height: 80vh;  /* Limitar la altura al 80% del viewport */
+    width: auto;       /* Ajusta el ancho automáticamente */
+    height: auto;      /* Ajusta la altura automáticamente */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    object-fit: contain;  /* Asegura que la imagen mantenga sus proporciones */
+}
+
+/* Animación de zoom */
+@keyframes zoomIn {
+    from {
+        transform: scale(.5); /* Empieza en tamaño normal */
+        opacity: 0;
+    }
+    to {
+        transform: scale(4); /* Termina al tamaño deseado */
+        opacity: 1;
+    }
+}
+
+/* Estilo de la imagen en el modal */
+.zoomed-image {
+    max-width: 90vw;   /* Limitar el ancho al 90% del viewport */
+    max-height: 80vh;  /* Limitar la altura al 80% del viewport */
+    width: auto;       /* Ajusta el ancho automáticamente */
+    height: auto;      /* Ajusta la altura automáticamente */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(255, 255, 255, 0.5);
+    object-fit: contain;  /* Asegura que la imagen mantenga sus proporciones */
+    animation: zoomIn 1.1s ease-out forwards; /* Aplicamos la animación y que se mantenga al final */
+}
+

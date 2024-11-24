@@ -1,0 +1,73 @@
+.register-form {
+    background: #1c1c1c; /* Fondo oscuro para el formulario */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Sombra */
+    width: 100%; /* Full width */
+    max-width: 400px; /* Limitar ancho máximo */
+    margin: 20px auto; /* Centrar */
+    color: #e0e0e0; /* Texto claro */
+}
+
+.register-form input {
+    width: 90%; /* Full width */
+    padding: 10px; /* Espaciado interno */
+    margin-bottom: 10px; /* Espacio inferior */
+    border: 1px solid #39FF14; /* Borde verde neón */
+    border-radius: 5px; /* Bordes redondeados */
+    background: #2c2c2c; /* Fondo oscuro para los inputs */
+    color: #e0e0e0; /* Texto claro */
+}
+
+.register-form button {
+    background-color: #39FF14; /* Color de fondo verde neón */
+    color: #000000; /* Color del texto negro */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor */
+    width: 100%; /* Full width */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.register-form button:hover {
+    background-color: #32CC12; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el enlace "Regresar al Home" */
+.back-to-home {
+    margin-top: 10px;
+    display: inline-block;
+    text-align: center;
+}
+
+.back-to-home button {
+    padding: 8px 12px;
+    background-color: #39FF14; /* Color de fondo verde neón */
+    color: #fff; /* Texto blanco */
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 4px; /* Bordes redondeados */
+    margin-left: 20px; /* Espacio a la izquierda */
+}
+
+.back-to-home button:hover {
+    background-color: #32CC12; /* Color más oscuro al pasar el ratón */
+}
+
+/* Estilo para el botón "Regresar al Home" */
+.go-button {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff; /* Color de fondo azul */
+    color: white;
+    border: none;
+    border-radius: 4px; /* Bordes redondeados */
+    cursor: pointer;
+   
+}
+
+.go-button:hover {
+    background-color: #0056b3; /* Color más oscuro al pasar el ratón */
+}

@@ -1,0 +1,33 @@
+.comment-form {
+    background: #1c1c1c; /* Fondo oscuro del mismo tono que el header */
+    padding: 20px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.5); /* Sombra más pronunciada */
+    margin-bottom: 20px; /* Espacio inferior */
+    color: #e0e0e0; /* Texto claro para el formulario */
+}
+
+.comment-form textarea {
+    width: 98%; /* Full width */
+    height: 100px; /* Altura fija */
+    margin-bottom: 10px; /* Espacio inferior */
+    border-radius: 5px; /* Bordes redondeados */
+    border: 1px solid #39FF14; /* Borde verde neón */
+    padding: 10px; /* Espaciado interno */
+    background-color: #2c2c2c; /* Fondo oscuro para el textarea */
+    color: #e0e0e0; /* Texto claro */
+}
+
+.comment-form button {
+    background-color: #39FF14; /* Color de fondo verde neón */
+    color: #000000; /* Color del texto negro */
+    border: none; /* Sin borde */
+    padding: 10px 15px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    cursor: pointer; /* Cambia el cursor */
+    transition: background-color 0.3s ease; /* Transición suave */
+}
+
+.comment-form button:hover {
+    background-color: #32CC12; /* Color más oscuro al pasar el ratón */
+}

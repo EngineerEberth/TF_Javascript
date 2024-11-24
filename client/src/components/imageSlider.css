@@ -1,0 +1,20 @@
+.image-slider {
+    margin: 20px auto; /* Centrar el slider */
+    max-width: 800px; /* Limitar el ancho máximo del slider */
+    width: 100%; /* Usar 100% para que sea responsivo */
+    overflow: hidden; /* Ocultar el desbordamiento */
+    border-radius: 10px; /* Bordes redondeados para el slider */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada */
+}
+
+.image-slider img {
+    width: 100%; /* Ajustar a 100% para que sea responsivo */
+    height: 400px; /* Altura fija para mantener el tamaño uniforme */
+    object-fit: cover; /* Ajustar la imagen para cubrir el contenedor */
+    border-radius: 10px; /* Bordes redondeados */
+    transition: transform 0.5s ease; /* Transición suave al aplicar transformaciones */
+}
+
+.image-slider img:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
